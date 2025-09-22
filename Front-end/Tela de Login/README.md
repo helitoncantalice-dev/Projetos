@@ -18,7 +18,7 @@ Teste feito por Heliton Cantalice nos seus primeiros estudos sobre HTML
 <br>
 
 <p align="center">
-  <img alt="Tela de login" src="./assets/photo-1511884642898-4c92249e20b6.avif" width="40%">
+  <img alt="Tela de login" src="./assets/Captura de tela 2025-09-22 154749.png" width="40%">
 </p>
 
 
