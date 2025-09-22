@@ -13,10 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(./assets/photo-1511884642898-4c92249e20b6.avif) no-repeat;
-    background: cover;
-    background-position: center;
-
+    background-color: black;
 }
 
 .container {
@@ -61,6 +58,52 @@ body {
     position: relative;
     left: 87%;
     bottom: 37px;
-    
     font-size: 20px;
 }
+
+button{
+
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.remember-forgot  label{
+    display: inline;
+    
+    color: white;
+    font-size: 15px;
+    
+    
+}
+
+.remember-forgot a {
+    display: inline;
+    color: white;
+    font-size: 15px;
+    margin-left: 49px;
+    
+}
+
+.register-link {
+
+    text-align: center;
+
+}
+
+.register-link a {
+    color: white;
+    text-align: center;
+    
+}
+
