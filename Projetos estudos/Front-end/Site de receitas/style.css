@@ -14,6 +14,7 @@ body {
     background-image: url(./assets/bg-image.png);
     background-repeat: no-repeat;
     background-size:cover;
+    background-color: #573824;
 
 }
 
@@ -49,12 +50,15 @@ h1, h2 {
 }
 
 .primeiro-texto {
-
+    width: 704px;
+    height: 192px;
 }
 
 
 .segundo-texto {
     margin-top: 24px;
+    width: 704px;
+    height: 376px;
   
 
 }
@@ -70,4 +74,5 @@ footer {
     color: #291B1A;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
