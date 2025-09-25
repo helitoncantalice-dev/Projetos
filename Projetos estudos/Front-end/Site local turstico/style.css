@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f5f4f0;
+}
+
+p {
+  font-size: 16px;
+}
+
+.vermelho {
+  color: #e5245e;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.roxo {
+  color: purple;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.laranja {
+  color: orange;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+main {
+  display: block;
+  width: 1120px;
+  height: 3054px;
+  margin: auto;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-position: inside;
+}
+
+.primeiro-texto {
+  padding-bottom: 40px;
+}
+.descricao-da-imagem {
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.segundo-texto {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.texto-list1 {
+  padding-bottom: 48px;
+}
+.texto-list2 {
+  padding-bottom: 48px;
+}
+.texto-list3 {
+  padding-bottom: 48px;
+}
+footer {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+
+.footer2 {
+  padding-top: 50px;
+}
