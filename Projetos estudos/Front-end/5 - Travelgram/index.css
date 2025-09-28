@@ -1,0 +1,6 @@
+@import url(global.css);
+
+body {
+  color: var(--text-color2);
+  background-color: var(--background-color);
+}
