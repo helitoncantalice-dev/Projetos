@@ -1,0 +1,51 @@
+header {
+  padding-block: 32px;
+}
+
+#profile {
+  display: flex;
+  gap: 32px;
+}
+
+#profile > div {
+  max-width: 384px;
+  align-items: center;
+}
+
+#profile h1 {
+  font: var(--text-lg);
+  color: var(text-color);
+  margin-bottom: 8px;
+}
+
+#profile p {
+  font: var(--text-md);
+  color: var(--text-color2);
+  margin-bottom: 16px;
+  line-height: 150%;
+}
+
+#info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 280px;
+}
+
+#info ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#info {
+  display: flex;
+  padding-left: 200px;
+}

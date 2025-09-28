@@ -1,7 +1,19 @@
 @import url(global.css);
 @import url(nav.css);
-
+@import url(header.css);
+@import url(main.css);
 body {
   color: var(--text-color2);
   background-color: var(--background-color);
+}
+
+#profile img {
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+}
+
+#info img {
+  width: 24px;
+  height: 24px;
 }
