@@ -29,13 +29,14 @@ header {
   list-style: none;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 16px;
   width: 280px;
 }
 
 #info ul li {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   gap: 8px;
 }
 

@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1280px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  padding-inline: 24px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
