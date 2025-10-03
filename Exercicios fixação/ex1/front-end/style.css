@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #a8a8a8;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.caixa-principal {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
+  min-height: 100vh;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.texto h1 {
+  text-align: center;
+  padding-block: 10px;
+}
+
+.texto p {
+  color: #969696;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 20px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: rgb(0, 119, 231);
+  color: white;
+  border: 1px solid white;
+}
