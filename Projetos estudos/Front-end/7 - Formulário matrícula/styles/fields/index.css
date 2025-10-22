@@ -43,9 +43,22 @@ textarea:focus {
     inset: 0;
     opacity: 0;
   }
+}
 
-  &:hover {
-    border-width: 2px dashed var(--stroke-hightlight);
-    border-color: var(--stroke-hightlight);
-  }
+.droparea-wrapper:hover {
+  border-width: 3px;
+  border-color: var(--stroke-hightlight);
+  background-color: var(--surface-secondary);
+}
+
+.address {
+  margin-top: 2.5rem;
+}
+
+form input:invalid {
+  border: 0.125rem solid var(--semantic-error) !important;
+}
+
+input:has(required) {
+  display: flex;
 }
