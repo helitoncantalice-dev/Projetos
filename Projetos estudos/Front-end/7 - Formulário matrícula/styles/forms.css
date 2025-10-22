@@ -1,3 +1,4 @@
+@import url(./fields/index.css);
 form {
   margin-top: 3rem;
 }
@@ -10,4 +11,6 @@ fieldset {
 
 legend {
   font: 600 1rem/1.25 (--font-family);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
 }
